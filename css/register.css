@@ -1,0 +1,77 @@
+.w {
+  width: 1200px;
+  margin: auto;
+}
+.header {
+  margin-top: 15px;
+  height: 82px;
+  border-bottom: 2px solid #b1191d;
+}
+.registerarea {
+  margin-top: 20px;
+  height: 520px;
+  border: 1px solid #ccc;
+}
+.registerarea h3 {
+  padding: 0 10px;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ececec;
+  font-weight: normal;
+  line-height: 40px;
+}
+.registerarea em {
+  float: right;
+  font-size: 14px;
+}
+.registerarea em a {
+  color: #b1191d;
+  font-size: 18px;
+}
+.reg_form {
+  margin: 20px auto;
+  width: 600px;
+  height: 400px;
+}
+.reg_form li {
+  margin-top: 15px;
+}
+.reg_form label {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: right;
+}
+.reg_form input {
+  margin-left: 10px;
+  width: 238px;
+  height: 34px;
+  border: 1px solid #ccc;
+}
+.error {
+  margin-left: 15px;
+  color: #b1191d;
+}
+.right {
+  margin-left: 15px;
+  color: green;
+}
+.agree {
+  padding-left: 100px;
+}
+.reg_form .ipt {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.reg_form .over {
+  width: 200px;
+  height: 34px;
+  margin: 30px 0 0 130px;
+  background-color: #b1191d;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}

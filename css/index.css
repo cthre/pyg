@@ -1,0 +1,135 @@
+/* 首页样式 */
+/* main样式star */
+.mian {
+  width: 980px;
+  height: 455px;
+  margin-left: 219px;
+  margin-top: 10px;
+  background-color: black;
+  overflow: hidden;
+}
+.focus {
+  float: left;
+  overflow: hidden;
+}
+/* mian样式end */
+/* recommend样式star */
+.recommend {
+  height: 163px;
+  margin-top: 5px;
+  background-color: pink;
+}
+.recom_hd {
+  width: 200px;
+  height: 163px;
+  background-color: #5c5251;
+  text-align: center;
+  line-height: 163px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+}
+.recom_bd {
+  width: 1000px;
+  height: 163px;
+  background-color: #fff;
+}
+.recom_bd li {
+  float: left;
+  width: 249px;
+  border-right: 1px solid #ccc;
+  height: 145px;
+  margin-top: 10px;
+  text-align: center;
+}
+.recom_bd li:last-child {
+  border-right: none;
+}
+/* recommend样式end */
+/* floor样式star */
+.box-hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+  margin-top: 25px;
+}
+.box-hd h3 {
+  float: left;
+  font-size: 18px;
+  color: #c81623;
+}
+.tab-list {
+  line-height: 30px;
+}
+.tab-list li {
+  float: left;
+}
+.tab-list li a {
+  margin: 0 15px;
+}
+.tab-list li:first-child a {
+  color: #c81623;
+}
+.box-bd {
+  height: 361px;
+  background-color: #f9f9f9;
+}
+.w209 {
+  width: 209px;
+}
+
+.w329 {
+  width: 329px;
+}
+.w219 {
+  width: 219px;
+  border-right: 1px solid #ccc;
+}
+.w220 {
+  width: 220px;
+  border-right: 1px solid #ccc;
+}
+.tab-con li {
+  float: left;
+  height: 361px;
+  overflow: hidden;
+}
+.tab-con-item {
+  margin-top: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.tab-con-list li {
+  width: 86px;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.box-bd img {
+  transition: all 0.2s;
+}
+.box-bd img:hover {
+  margin-left: 8px;
+}
+/* floo样式end */
+/* fixedtool star */
+.fixedtool {
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  margin-left: -676px;
+  width: 66px;
+}
+.fixedtool li {
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.fixedtool .current {
+  background-color: red;
+  color: white;
+}
+/* fixedtool end */
